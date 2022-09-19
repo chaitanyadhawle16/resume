@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+    font-size: 3.5rem;
+    color:coral;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.4rem;
+    font-size: 1.2rem;
+    padding: 0.3em;
+    background:lightgreen;
+    color:coral;
+    font-weight: 400;
+    margin-bottom: 1rem; 
+    border-radius: 5px;   
+}
+
+h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+body{
+
+    margin: 20px auto;
+    width:85%;
+    /* max-width: 100%; */
+    background: seagreen;
+    
+}
+
+.resume{
+    max-width: 100%;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: azure;
+}
+
+.header-image img{
+    border-radius: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    line-height: 1.25;
+}
+
+
+.profile{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.header-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-details li{
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.inner-content{
+    margin-left:10px;
+    margin-bottom: 15px;
+}
+.outer-ul li{
+    margin-bottom: 25px;
+}
+.inner-ul{
+    margin-left:20px;
+    list-style:circle;
+}
+.inner-ul li{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width : 315px){
+    h1{
+        font-size: 2.5rem;
+    }
+}
